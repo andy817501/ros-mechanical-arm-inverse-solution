@@ -1,0 +1,9 @@
+# 客户端请求时发送的两个数字
+int32 num1
+int32 num2
+---
+# 服务器响应发送的数据
+float64  place_x
+float64  place_y
+float64  place_z
+int32      do2node
