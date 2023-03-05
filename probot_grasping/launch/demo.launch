@@ -1,0 +1,23 @@
+<launch>
+  <!-- <node pkg="rosserial_python" type="serial_node.py" name="arduno">
+    <param name="port" value="/dev/ttyUSB0"/>
+    <param name="baud" value="115200"/>
+  </node>
+
+
+  <node pkg="rosserial_python" type="serial_node.py" name="stm32">
+<param name="port" value="/dev/ttyUSB1"/>
+  </node> -->
+
+
+  <include file="$(find andy_mode_10_2)/launch/demo.launch" >
+
+  </include>
+
+</launch>
+
+
+
+
+
+
